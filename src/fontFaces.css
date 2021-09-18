@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Black"), local("Jost-Black"),
+    url("../src/assets/fonts/Jost-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Black Italic"), local("Jost-BlackItalic"),
+    url("../src/assets/fonts/Jost-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Bold"), local("Jost-Bold"),
+    url("../src/assets/fonts/Jost-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Bold Italic"), local("Jost-BoldItalic"),
+    url("../src/assets/fonts/Jost-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost ExtraBold"), local("Jost-ExtraBold"),
+    url("../src/assets/fonts/Jost-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Italic"), local("Jost-Italic"),
+    url("../src/assets/fonts/Jost-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost ExtraBold Italic"), local("Jost-ExtraBoldItalic"),
+    url("../src/assets/fonts/Jost-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost ExtraLight"), local("Jost-ExtraLight"),
+    url("../src/assets/fonts/Jost-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Light Italic"), local("Jost-LightItalic"),
+    url("../src/assets/fonts/Jost-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost ExtraLight Italic"), local("Jost-ExtraLightItalic"),
+    url("../src/assets/fonts/Jost-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Light"), local("Jost-Light"),
+    url("../src/assets/fonts/Jost-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Medium"), local("Jost-Medium"),
+    url("../src/assets/fonts/Jost-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Thin"), local("Jost-Thin"),
+    url("../src/assets/fonts/Jost-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Thin Italic"), local("Jost-ThinItalic"),
+    url("../src/assets/fonts/Jost-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Regular"), local("Jost-Regular"),
+    url("../src/assets/fonts/Jost-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost SemiBold Italic"), local("Jost-SemiBoldItalic"),
+    url("../src/assets/fonts/Jost-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost SemiBold"), local("Jost-SemiBold"),
+    url("../src/assets/fonts/Jost-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost Medium Italic"), local("Jost-MediumItalic"),
+    url("../src/assets/fonts/Jost-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Black Italic"),
+    local("PlayfairDisplay-BlackItalic"),
+    url("../src/assets/fonts/PlayfairDisplay-BlackItalic.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Bold"), local("PlayfairDisplay-Bold"),
+    url("../src/assets/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Black"), local("PlayfairDisplay-Black"),
+    url("../src/assets/fonts/PlayfairDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Bold Italic"),
+    local("PlayfairDisplay-BoldItalic"),
+    url("../src/assets/fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Medium"), local("PlayfairDisplay-Medium"),
+    url("../src/assets/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Italic"), local("PlayfairDisplay-Italic"),
+    url("../src/assets/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display ExtraBold"), local("PlayfairDisplay-ExtraBold"),
+    url("../src/assets/fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display ExtraBold Italic"),
+    local("PlayfairDisplay-ExtraBoldItalic"),
+    url("../src/assets/fonts/PlayfairDisplay-ExtraBoldItalic.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Regular"), local("PlayfairDisplay-Regular"),
+    url("../src/assets/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display SemiBold Italic"),
+    local("PlayfairDisplay-SemiBoldItalic"),
+    url("../src/assets/fonts/PlayfairDisplay-SemiBoldItalic.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display SemiBold"), local("PlayfairDisplay-SemiBold"),
+    url("../src/assets/fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display Medium Italic"),
+    local("PlayfairDisplay-MediumItalic"),
+    url("../src/assets/fonts/PlayfairDisplay-MediumItalic.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}

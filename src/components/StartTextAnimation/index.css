@@ -1,0 +1,39 @@
+.messageContainer {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.messageContent {
+  position: absolute;
+  top: 0;
+
+  transform-origin: 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+  will-change: transform;
+  transition: transform 300s linear;
+  -webkit-transition: transform 300s linear;
+}
+
+.messageContent.animate {
+  transform: rotate(-45deg) translateX(-70%);
+  -webkit-transform: rotate(-45deg) translateX(-70%);
+}
+
+.message {
+  position: relative;
+  overflow: hidden;
+  color: #a60815;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 125px;
+  line-height: 110px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
